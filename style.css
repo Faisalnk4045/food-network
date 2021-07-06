@@ -3,6 +3,7 @@ body{
     margin-top: 100px;
     margin-left: 0;
     margin-right: 0;
+    margin-bottom: 0;
     padding: 0;
 }
 h1{
@@ -10,6 +11,9 @@ h1{
 }
 .orange-color{
     color: orange;
+}
+.grey-color{
+    color: #575757;
 }
 .flexible-container{
     display: flex;
@@ -20,6 +24,10 @@ h1{
     margin-left: 5%;
     padding-left: 2%;
 }
+.half-width p{
+    padding-bottom: 40px;
+    font-size: 20px;
+}
 .half-width img{
     width: 80%;
 }
@@ -29,38 +37,87 @@ h1{
     background-image: linear-gradient(to right,#f8a456d8,#fc4242e3);
     padding: 20px 30px;
     border-radius: 100px;
-    box-shadow: 0px 0px 45px 5px rgba(252, 143, 73, 0.5);
+    box-shadow: 0px 0px 45px 2px rgba(252, 143, 73, 0.5);
     color: white;
 }
 .about{
     background-image: url(images/7.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
 }
-.recipie{
+.about div{
+    width: 50%;
+}
+.about img{
+    width: 100%;
+    padding-left: 0px;
+}
+.about h2{
+    font-size: 40px;
+}
+.about p{
+    font-size: 18px;
+    width: 90%;
+    line-height: 32px;
+    padding-bottom: 100px;
+}
+#about-me-div{
+    padding: 100px; 
+    margin-left: 100px;
+}
+#about-me-div h2{
+    padding-bottom: 10px;
+}
+#recipie{
     text-align: center;
 }
-.recipie p{
+#recipie p{
     width: 50%;
     margin: auto;
 }
-.div-width{
-    /* width: 25%; */
+#recipie h2{
+    font-size: 32px;
+}
+.recipie-card{
     padding: 20px;
-    /* margin-top: 5%;
-    margin-left: 4%;
-    margin-right: 4%; */
     border-radius: 20px;
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.2);
 }
-.div-width img{
+.recipie-card img{
     width: 100%;
 }
-.div-width p{
+.recipie-card p{
     line-height: 32px;
 }
-.div-width h3{
+.recipie-card h3{
     font-size: 28px;
     line-height: 40px;
     font-weight: bold;
+}
+.followers{
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 80%;
+    padding: 60px 160px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: space-between;
+    line-height: 10px;
+}
+.followers h3{
+    font-size: 35px;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+footer h3{
+    font-size: 23px;
+    padding-bottom: 15px;
+}
+footer p{
+    font-size: 15px;
 }
